@@ -9,7 +9,7 @@ public class DeleteCommentPage extends BasePage {
 	@FindBy(id="exampleModalLabel")
 	private WebElement modalWindowHeader;
 	
-	@FindBy(xpath="//dl[@class='dl-horizontal']/dd")
+	@FindBy(xpath="//dl[@class='dl-horizontal']/dd[2]")
 	private WebElement content;
 	
 	@FindBy(id= "cancelButton")
